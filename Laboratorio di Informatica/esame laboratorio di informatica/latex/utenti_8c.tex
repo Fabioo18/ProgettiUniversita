@@ -1,0 +1,84 @@
+\hypertarget{utenti_8c}{}\doxysection{utenti.\+c File Reference}
+\label{utenti_8c}\index{utenti.c@{utenti.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}utenti.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}eventi.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{utenti_8c_a392fb874e547e582e9c66a08a1f23326}{MAX}}~100
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{utenti_8c_ae50734e333f85eaddff1d693417993b7}{Menu\+R\+\_\+A}} ()
+\item 
+void \mbox{\hyperlink{utenti_8c_af66b992239d7157ba2646b990eaa579b}{Aggiungi\+\_\+utente}} ()
+\item 
+void \mbox{\hyperlink{utenti_8c_a0112d2df36cedae242112da45c8da2ea}{Accesso\+\_\+utente}} ()
+\item 
+void \mbox{\hyperlink{utenti_8c_ac5c77e5358d11ee16f9b2626592bab21}{Modifica\+\_\+utente}} ()
+\item 
+void \mbox{\hyperlink{utenti_8c_a3fd6c1bfe858038f59cfc6e78dc26b2a}{Cronologia\+\_\+eventi}} ()
+\item 
+void \mbox{\hyperlink{utenti_8c_abff930b134ccb70ac6210a267c64adb4}{Ordine\+\_\+costo}} ()
+\item 
+void \mbox{\hyperlink{utenti_8c_ac70e4b549205269c45a7ae04ff0db5de}{Ordine\+\_\+data}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{utenti_8c_a392fb874e547e582e9c66a08a1f23326}\label{utenti_8c_a392fb874e547e582e9c66a08a1f23326}} 
+\index{utenti.c@{utenti.c}!MAX@{MAX}}
+\index{MAX@{MAX}!utenti.c@{utenti.c}}
+\doxysubsubsection{\texorpdfstring{MAX}{MAX}}
+{\footnotesize\ttfamily \#define MAX~100}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{utenti_8c_a0112d2df36cedae242112da45c8da2ea}\label{utenti_8c_a0112d2df36cedae242112da45c8da2ea}} 
+\index{utenti.c@{utenti.c}!Accesso\_utente@{Accesso\_utente}}
+\index{Accesso\_utente@{Accesso\_utente}!utenti.c@{utenti.c}}
+\doxysubsubsection{\texorpdfstring{Accesso\_utente()}{Accesso\_utente()}}
+{\footnotesize\ttfamily void Accesso\+\_\+utente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette all utente di modificare i dati e di controllare la sua cronologia degli eventi \mbox{\Hypertarget{utenti_8c_af66b992239d7157ba2646b990eaa579b}\label{utenti_8c_af66b992239d7157ba2646b990eaa579b}} 
+\index{utenti.c@{utenti.c}!Aggiungi\_utente@{Aggiungi\_utente}}
+\index{Aggiungi\_utente@{Aggiungi\_utente}!utenti.c@{utenti.c}}
+\doxysubsubsection{\texorpdfstring{Aggiungi\_utente()}{Aggiungi\_utente()}}
+{\footnotesize\ttfamily void Aggiungi\+\_\+utente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di salvare sul file \char`\"{}\+Dati\+\_\+utente.\+csv\char`\"{} le informazioni relative all utente\+: NICKNAME, E-\/\+MAIL, ANNO DI NASCITA, MESE DI NASCITA, GIORNO DI NASCITA, GENERE, GENERE MUSICALE E NUMERO CELLULARE \mbox{\Hypertarget{utenti_8c_a3fd6c1bfe858038f59cfc6e78dc26b2a}\label{utenti_8c_a3fd6c1bfe858038f59cfc6e78dc26b2a}} 
+\index{utenti.c@{utenti.c}!Cronologia\_eventi@{Cronologia\_eventi}}
+\index{Cronologia\_eventi@{Cronologia\_eventi}!utenti.c@{utenti.c}}
+\doxysubsubsection{\texorpdfstring{Cronologia\_eventi()}{Cronologia\_eventi()}}
+{\footnotesize\ttfamily void Cronologia\+\_\+eventi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di stampare tutti gli eventi a cui ha partecipato un utente, sia in ordine di costo che in ordine di data \mbox{\Hypertarget{utenti_8c_ae50734e333f85eaddff1d693417993b7}\label{utenti_8c_ae50734e333f85eaddff1d693417993b7}} 
+\index{utenti.c@{utenti.c}!MenuR\_A@{MenuR\_A}}
+\index{MenuR\_A@{MenuR\_A}!utenti.c@{utenti.c}}
+\doxysubsubsection{\texorpdfstring{MenuR\_A()}{MenuR\_A()}}
+{\footnotesize\ttfamily void Menu\+R\+\_\+A (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette all utente di scegliere tra R(egistra) e A(ccedi) \mbox{\Hypertarget{utenti_8c_ac5c77e5358d11ee16f9b2626592bab21}\label{utenti_8c_ac5c77e5358d11ee16f9b2626592bab21}} 
+\index{utenti.c@{utenti.c}!Modifica\_utente@{Modifica\_utente}}
+\index{Modifica\_utente@{Modifica\_utente}!utenti.c@{utenti.c}}
+\doxysubsubsection{\texorpdfstring{Modifica\_utente()}{Modifica\_utente()}}
+{\footnotesize\ttfamily void Modifica\+\_\+utente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette all utente di modificare i suoi dati (senza cambiare il nickname)\+: E-\/\+MAIL, ANNO DI NASCITA, MESE DI NASCITA, GIORNO DI NASCITA, GENERE, GENERE MUSICALE E NUMERO CELLULARE \mbox{\Hypertarget{utenti_8c_abff930b134ccb70ac6210a267c64adb4}\label{utenti_8c_abff930b134ccb70ac6210a267c64adb4}} 
+\index{utenti.c@{utenti.c}!Ordine\_costo@{Ordine\_costo}}
+\index{Ordine\_costo@{Ordine\_costo}!utenti.c@{utenti.c}}
+\doxysubsubsection{\texorpdfstring{Ordine\_costo()}{Ordine\_costo()}}
+{\footnotesize\ttfamily void Ordine\+\_\+costo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di ordinare gli eventi in base al costo speso dall utente \mbox{\Hypertarget{utenti_8c_ac70e4b549205269c45a7ae04ff0db5de}\label{utenti_8c_ac70e4b549205269c45a7ae04ff0db5de}} 
+\index{utenti.c@{utenti.c}!Ordine\_data@{Ordine\_data}}
+\index{Ordine\_data@{Ordine\_data}!utenti.c@{utenti.c}}
+\doxysubsubsection{\texorpdfstring{Ordine\_data()}{Ordine\_data()}}
+{\footnotesize\ttfamily void Ordine\+\_\+data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di ordinare gli eventi in ordine cronologico 

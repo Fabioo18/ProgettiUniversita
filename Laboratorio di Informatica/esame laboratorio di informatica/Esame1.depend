@@ -1,0 +1,111 @@
+# depslib dependency file v1.0
+1624024876 source:c:\users\lacar\onedrive\desktop\esame1\esame1\eventi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eventi.h"
+	"utenti.h"
+
+1624011557 c:\users\lacar\onedrive\desktop\esame1\esame1\eventi.h
+
+1624015356 c:\users\lacar\onedrive\desktop\esame1\esame1\utenti.h
+
+1624025091 source:c:\users\lacar\onedrive\desktop\esame1\esame1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utenti.h"
+	"eventi.h"
+
+1624011658 c:\users\lacar\onedrive\desktop\esame1\esame1\utenti.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utenti.h"
+	"eventi.h"
+
+1624011715 c:\users\lacar\onedrive\desktop\esame1\esame1\eventi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eventi.h"
+	"utenti.h"
+
+1624022873 source:c:\users\lacar\onedrive\desktop\esame1\esame1\utenti.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utenti.h"
+	"eventi.h"
+
+1624118961 source:c:\users\lacar\onedrive\desktop\esame1\eventi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eventi.h"
+	"utenti.h"
+
+1624030430 c:\users\lacar\onedrive\desktop\esame1\eventi.h
+
+1624118306 c:\users\lacar\onedrive\desktop\esame1\utenti.h
+
+1624028454 source:c:\users\lacar\onedrive\desktop\esame1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utenti.h"
+	"eventi.h"
+
+1624118819 source:c:\users\lacar\onedrive\desktop\esame1\utenti.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utenti.h"
+	"eventi.h"
+
+1624385000 source:c:\users\lacar\onedrive\desktop\esame1 - copia\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utenti.h"
+	"eventi.h"
+
+1624118306 c:\users\lacar\onedrive\desktop\esame1 - copia\utenti.h
+
+1624030430 c:\users\lacar\onedrive\desktop\esame1 - copia\eventi.h
+
+1624452540 source:c:\users\lacar\onedrive\desktop\esame1 - copia\utenti.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utenti.h"
+	"eventi.h"
+
+1624452934 source:c:\users\lacar\onedrive\desktop\esame1 - copia\eventi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eventi.h"
+	"utenti.h"
+
+1655730645 source:c:\users\lacar\onedrive\desktop\laboratorio di informatica\esame laboratorio di informatica\eventi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eventi.h"
+	"utenti.h"
+
+1624030430 c:\users\lacar\onedrive\desktop\laboratorio di informatica\esame laboratorio di informatica\eventi.h
+
+1624118306 c:\users\lacar\onedrive\desktop\laboratorio di informatica\esame laboratorio di informatica\utenti.h
+
+1624385000 source:c:\users\lacar\onedrive\desktop\laboratorio di informatica\esame laboratorio di informatica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utenti.h"
+	"eventi.h"
+
+1656154466 source:c:\users\lacar\onedrive\desktop\laboratorio di informatica\esame laboratorio di informatica\utenti.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utenti.h"
+	"eventi.h"
+

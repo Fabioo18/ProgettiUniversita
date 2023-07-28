@@ -1,0 +1,289 @@
+\hypertarget{utenti_8h}{}\doxysection{utenti.\+h File Reference}
+\label{utenti_8h}\index{utenti.h@{utenti.h}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_utente}{Utente}}
+\item 
+struct \mbox{\hyperlink{struct_prenotazione}{Prenotazione}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7d}{OP\+\_\+\+UTENTE}} \{ \mbox{\hyperlink{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7dab2a6a8dd5a76c28eb393c839c59d4061}{REGISTRA}}
+, \mbox{\hyperlink{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7da1f8627773007e27d740af7a198db84a9}{ACCEDI}}
+, \mbox{\hyperlink{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7daedf2f4854e14e1b200d8907867a81afc}{ESCI3}}
+ \}
+\item 
+enum \mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2}{GENERE\+\_\+\+MUSICALE}} \{ \newline
+\mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a740d9b7cfa15179d19256d186cdc6e60}{BLUES}}
+, \mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a6f455c71aea43de4799f16a13a1d7a23}{CLASSICA}}
+, \mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a23761a1d90b406431b1ea8f150629348}{HEAVY\+\_\+\+METAL}}
+, \mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a20c9b85ebd46fc8f61f55700d82df598}{HIP\+\_\+\+HOP}}
+, \newline
+\mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2abe6f1fd008b7070f5611e08345f569d4}{JAZZ}}
+, \mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a061dcf4785583d8653942f2d252174fa}{POP}}
+, \mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a820a42cb847b105223022c0ed3d979d5}{PUNK}}
+, \mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2ab39e373af8c527684a4f0ded36bd961c}{ROCK}}
+, \newline
+\mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a4b42e4aaafd7a2d320601665c3a11855}{ALTRO}}
+ \}
+\item 
+enum \mbox{\hyperlink{utenti_8h_a633a8983b37fce2e8279ff5dffeae178}{ACCESSO}} \{ \mbox{\hyperlink{utenti_8h_a633a8983b37fce2e8279ff5dffeae178af75b74e902ca923a56c296e848963acb}{MODIFICA}}
+, \mbox{\hyperlink{utenti_8h_a633a8983b37fce2e8279ff5dffeae178a9665cbdb263de208187e170eb1d2f6ad}{CRONOLOGIA}}
+, \mbox{\hyperlink{utenti_8h_a633a8983b37fce2e8279ff5dffeae178ad274a3a6df7341d70e849a6024f9d533}{ESCI2}}
+ \}
+\item 
+enum \mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8ea}{MODIFICA\+\_\+\+UTENTE}} \{ \newline
+\mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaaa9dd85e726c54b89febaeec13aa70a38}{EMAIL}}
+, \mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa6e04407ba3442b542f206ea39d9f18ed}{NOME}}
+, \mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa5229c49c3b81fe0e124e32c4ba91094e}{COGNOME}}
+, \mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaaf572a2dc4ee016466c110740729863f5}{ANNO}}
+, \newline
+\mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa500c99fad8d8739ad96d8a3b44b05399}{MESE}}
+, \mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaaf2b1b7da49d020274f091780ff4cf3b2}{GIORNO}}
+, \mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa8970eb71b85ca957185e6274b93a85d5}{GENERE}}
+, \mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa838dd6bbc249103f8eedc70d53b7215f}{GENERE\+\_\+\+MUSICALE}}
+, \newline
+\mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa79e6aeefc709dd0f3b8160a7221b94e1}{NUMERO\+\_\+\+CELLULARE}}
+ \}
+\item 
+enum \mbox{\hyperlink{utenti_8h_a654b4a8ccb7196642531bbb81436a16e}{GENERE}} \{ \mbox{\hyperlink{utenti_8h_a654b4a8ccb7196642531bbb81436a16ea01db72ad1da191f3658792c1948acddb}{MASCHIO}}
+, \mbox{\hyperlink{utenti_8h_a654b4a8ccb7196642531bbb81436a16ea7efa89eabebb542e0bafb705191798fd}{FEMMINA}}
+, \mbox{\hyperlink{utenti_8h_a654b4a8ccb7196642531bbb81436a16eab730d95fe7541801410412ef999b65b2}{ALTRI}}
+ \}
+\item 
+enum \mbox{\hyperlink{utenti_8h_a86d071ff78a9a412a71a49c29684eaef}{ORDINE}} \{ \mbox{\hyperlink{utenti_8h_a86d071ff78a9a412a71a49c29684eaefa3f352fd6d49a151de930c8e5feacbbd2}{COSTO}}
+, \mbox{\hyperlink{utenti_8h_a86d071ff78a9a412a71a49c29684eaefa37d605c7e866f53b8dc1f9649532ea0c}{DATA1}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{utenti_8h_af66b992239d7157ba2646b990eaa579b}{Aggiungi\+\_\+utente}} ()
+\item 
+void \mbox{\hyperlink{utenti_8h_ae50734e333f85eaddff1d693417993b7}{Menu\+R\+\_\+A}} ()
+\item 
+void \mbox{\hyperlink{utenti_8h_a0112d2df36cedae242112da45c8da2ea}{Accesso\+\_\+utente}} ()
+\item 
+void \mbox{\hyperlink{utenti_8h_ac5c77e5358d11ee16f9b2626592bab21}{Modifica\+\_\+utente}} ()
+\item 
+void \mbox{\hyperlink{utenti_8h_a3fd6c1bfe858038f59cfc6e78dc26b2a}{Cronologia\+\_\+eventi}} ()
+\item 
+void \mbox{\hyperlink{utenti_8h_abff930b134ccb70ac6210a267c64adb4}{Ordine\+\_\+costo}} ()
+\item 
+void \mbox{\hyperlink{utenti_8h_ac70e4b549205269c45a7ae04ff0db5de}{Ordine\+\_\+data}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{utenti_8h_a633a8983b37fce2e8279ff5dffeae178}\label{utenti_8h_a633a8983b37fce2e8279ff5dffeae178}} 
+\index{utenti.h@{utenti.h}!ACCESSO@{ACCESSO}}
+\index{ACCESSO@{ACCESSO}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{ACCESSO}{ACCESSO}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{utenti_8h_a633a8983b37fce2e8279ff5dffeae178}{ACCESSO}}}
+
+Questo tipo di dato è definito per descrivere gli attributi dell accesso utente \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MODIFICA@{MODIFICA}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!MODIFICA@{MODIFICA}}}\mbox{\Hypertarget{utenti_8h_a633a8983b37fce2e8279ff5dffeae178af75b74e902ca923a56c296e848963acb}\label{utenti_8h_a633a8983b37fce2e8279ff5dffeae178af75b74e902ca923a56c296e848963acb}} 
+MODIFICA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CRONOLOGIA@{CRONOLOGIA}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!CRONOLOGIA@{CRONOLOGIA}}}\mbox{\Hypertarget{utenti_8h_a633a8983b37fce2e8279ff5dffeae178a9665cbdb263de208187e170eb1d2f6ad}\label{utenti_8h_a633a8983b37fce2e8279ff5dffeae178a9665cbdb263de208187e170eb1d2f6ad}} 
+CRONOLOGIA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ESCI2@{ESCI2}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!ESCI2@{ESCI2}}}\mbox{\Hypertarget{utenti_8h_a633a8983b37fce2e8279ff5dffeae178ad274a3a6df7341d70e849a6024f9d533}\label{utenti_8h_a633a8983b37fce2e8279ff5dffeae178ad274a3a6df7341d70e849a6024f9d533}} 
+ESCI2&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{utenti_8h_a654b4a8ccb7196642531bbb81436a16e}\label{utenti_8h_a654b4a8ccb7196642531bbb81436a16e}} 
+\index{utenti.h@{utenti.h}!GENERE@{GENERE}}
+\index{GENERE@{GENERE}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{GENERE}{GENERE}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{utenti_8h_a654b4a8ccb7196642531bbb81436a16e}{GENERE}}}
+
+Questo tipo di dato è definito per descrivere i generi che può scegliere un utente nella funzione \mbox{\hyperlink{utenti_8h_af66b992239d7157ba2646b990eaa579b}{Aggiungi\+\_\+utente()}} \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MASCHIO@{MASCHIO}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!MASCHIO@{MASCHIO}}}\mbox{\Hypertarget{utenti_8h_a654b4a8ccb7196642531bbb81436a16ea01db72ad1da191f3658792c1948acddb}\label{utenti_8h_a654b4a8ccb7196642531bbb81436a16ea01db72ad1da191f3658792c1948acddb}} 
+MASCHIO&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{FEMMINA@{FEMMINA}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!FEMMINA@{FEMMINA}}}\mbox{\Hypertarget{utenti_8h_a654b4a8ccb7196642531bbb81436a16ea7efa89eabebb542e0bafb705191798fd}\label{utenti_8h_a654b4a8ccb7196642531bbb81436a16ea7efa89eabebb542e0bafb705191798fd}} 
+FEMMINA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ALTRI@{ALTRI}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!ALTRI@{ALTRI}}}\mbox{\Hypertarget{utenti_8h_a654b4a8ccb7196642531bbb81436a16eab730d95fe7541801410412ef999b65b2}\label{utenti_8h_a654b4a8ccb7196642531bbb81436a16eab730d95fe7541801410412ef999b65b2}} 
+ALTRI&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2}\label{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2}} 
+\index{utenti.h@{utenti.h}!GENERE\_MUSICALE@{GENERE\_MUSICALE}}
+\index{GENERE\_MUSICALE@{GENERE\_MUSICALE}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{GENERE\_MUSICALE}{GENERE\_MUSICALE}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2}{GENERE\+\_\+\+MUSICALE}}}
+
+Questo tipo di dato è definito per descrivere gli attributi dei generi musicali \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BLUES@{BLUES}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!BLUES@{BLUES}}}\mbox{\Hypertarget{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a740d9b7cfa15179d19256d186cdc6e60}\label{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a740d9b7cfa15179d19256d186cdc6e60}} 
+BLUES&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CLASSICA@{CLASSICA}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!CLASSICA@{CLASSICA}}}\mbox{\Hypertarget{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a6f455c71aea43de4799f16a13a1d7a23}\label{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a6f455c71aea43de4799f16a13a1d7a23}} 
+CLASSICA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HEAVY\_METAL@{HEAVY\_METAL}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!HEAVY\_METAL@{HEAVY\_METAL}}}\mbox{\Hypertarget{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a23761a1d90b406431b1ea8f150629348}\label{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a23761a1d90b406431b1ea8f150629348}} 
+HEAVY\+\_\+\+METAL&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HIP\_HOP@{HIP\_HOP}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!HIP\_HOP@{HIP\_HOP}}}\mbox{\Hypertarget{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a20c9b85ebd46fc8f61f55700d82df598}\label{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a20c9b85ebd46fc8f61f55700d82df598}} 
+HIP\+\_\+\+HOP&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{JAZZ@{JAZZ}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!JAZZ@{JAZZ}}}\mbox{\Hypertarget{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2abe6f1fd008b7070f5611e08345f569d4}\label{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2abe6f1fd008b7070f5611e08345f569d4}} 
+JAZZ&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{POP@{POP}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!POP@{POP}}}\mbox{\Hypertarget{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a061dcf4785583d8653942f2d252174fa}\label{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a061dcf4785583d8653942f2d252174fa}} 
+POP&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PUNK@{PUNK}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!PUNK@{PUNK}}}\mbox{\Hypertarget{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a820a42cb847b105223022c0ed3d979d5}\label{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a820a42cb847b105223022c0ed3d979d5}} 
+PUNK&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ROCK@{ROCK}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!ROCK@{ROCK}}}\mbox{\Hypertarget{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2ab39e373af8c527684a4f0ded36bd961c}\label{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2ab39e373af8c527684a4f0ded36bd961c}} 
+ROCK&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ALTRO@{ALTRO}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!ALTRO@{ALTRO}}}\mbox{\Hypertarget{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a4b42e4aaafd7a2d320601665c3a11855}\label{utenti_8h_a1ffcbf304f2aefc8a7ca906215c313d2a4b42e4aaafd7a2d320601665c3a11855}} 
+ALTRO&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8ea}\label{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8ea}} 
+\index{utenti.h@{utenti.h}!MODIFICA\_UTENTE@{MODIFICA\_UTENTE}}
+\index{MODIFICA\_UTENTE@{MODIFICA\_UTENTE}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{MODIFICA\_UTENTE}{MODIFICA\_UTENTE}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8ea}{MODIFICA\+\_\+\+UTENTE}}}
+
+Questa enumerazione tiene traccia dei parametri dell utente che possono essere modificati \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EMAIL@{EMAIL}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!EMAIL@{EMAIL}}}\mbox{\Hypertarget{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaaa9dd85e726c54b89febaeec13aa70a38}\label{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaaa9dd85e726c54b89febaeec13aa70a38}} 
+EMAIL&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NOME@{NOME}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!NOME@{NOME}}}\mbox{\Hypertarget{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa6e04407ba3442b542f206ea39d9f18ed}\label{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa6e04407ba3442b542f206ea39d9f18ed}} 
+NOME&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{COGNOME@{COGNOME}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!COGNOME@{COGNOME}}}\mbox{\Hypertarget{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa5229c49c3b81fe0e124e32c4ba91094e}\label{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa5229c49c3b81fe0e124e32c4ba91094e}} 
+COGNOME&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ANNO@{ANNO}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!ANNO@{ANNO}}}\mbox{\Hypertarget{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaaf572a2dc4ee016466c110740729863f5}\label{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaaf572a2dc4ee016466c110740729863f5}} 
+ANNO&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MESE@{MESE}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!MESE@{MESE}}}\mbox{\Hypertarget{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa500c99fad8d8739ad96d8a3b44b05399}\label{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa500c99fad8d8739ad96d8a3b44b05399}} 
+MESE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GIORNO@{GIORNO}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!GIORNO@{GIORNO}}}\mbox{\Hypertarget{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaaf2b1b7da49d020274f091780ff4cf3b2}\label{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaaf2b1b7da49d020274f091780ff4cf3b2}} 
+GIORNO&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GENERE@{GENERE}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!GENERE@{GENERE}}}\mbox{\Hypertarget{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa8970eb71b85ca957185e6274b93a85d5}\label{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa8970eb71b85ca957185e6274b93a85d5}} 
+GENERE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GENERE\_MUSICALE@{GENERE\_MUSICALE}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!GENERE\_MUSICALE@{GENERE\_MUSICALE}}}\mbox{\Hypertarget{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa838dd6bbc249103f8eedc70d53b7215f}\label{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa838dd6bbc249103f8eedc70d53b7215f}} 
+GENERE\+\_\+\+MUSICALE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NUMERO\_CELLULARE@{NUMERO\_CELLULARE}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!NUMERO\_CELLULARE@{NUMERO\_CELLULARE}}}\mbox{\Hypertarget{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa79e6aeefc709dd0f3b8160a7221b94e1}\label{utenti_8h_a40a78a8d880c6e75c8e9b059f035f8eaa79e6aeefc709dd0f3b8160a7221b94e1}} 
+NUMERO\+\_\+\+CELLULARE&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7d}\label{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7d}} 
+\index{utenti.h@{utenti.h}!OP\_UTENTE@{OP\_UTENTE}}
+\index{OP\_UTENTE@{OP\_UTENTE}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{OP\_UTENTE}{OP\_UTENTE}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7d}{OP\+\_\+\+UTENTE}}}
+
+Questo tipo di dato tiene traccia delle possibili operazioni dell utente \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{REGISTRA@{REGISTRA}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!REGISTRA@{REGISTRA}}}\mbox{\Hypertarget{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7dab2a6a8dd5a76c28eb393c839c59d4061}\label{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7dab2a6a8dd5a76c28eb393c839c59d4061}} 
+REGISTRA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ACCEDI@{ACCEDI}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!ACCEDI@{ACCEDI}}}\mbox{\Hypertarget{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7da1f8627773007e27d740af7a198db84a9}\label{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7da1f8627773007e27d740af7a198db84a9}} 
+ACCEDI&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ESCI3@{ESCI3}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!ESCI3@{ESCI3}}}\mbox{\Hypertarget{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7daedf2f4854e14e1b200d8907867a81afc}\label{utenti_8h_ad54190a9e6b6f113950ab26dd79eeb7daedf2f4854e14e1b200d8907867a81afc}} 
+ESCI3&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{utenti_8h_a86d071ff78a9a412a71a49c29684eaef}\label{utenti_8h_a86d071ff78a9a412a71a49c29684eaef}} 
+\index{utenti.h@{utenti.h}!ORDINE@{ORDINE}}
+\index{ORDINE@{ORDINE}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{ORDINE}{ORDINE}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{utenti_8h_a86d071ff78a9a412a71a49c29684eaef}{ORDINE}}}
+
+Questo tipo di dato è definito per descrivere in che modo possono essere ordinati gli eventi nella funzione \mbox{\hyperlink{utenti_8h_a3fd6c1bfe858038f59cfc6e78dc26b2a}{Cronologia\+\_\+eventi()}} \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{COSTO@{COSTO}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!COSTO@{COSTO}}}\mbox{\Hypertarget{utenti_8h_a86d071ff78a9a412a71a49c29684eaefa3f352fd6d49a151de930c8e5feacbbd2}\label{utenti_8h_a86d071ff78a9a412a71a49c29684eaefa3f352fd6d49a151de930c8e5feacbbd2}} 
+COSTO&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DATA1@{DATA1}!utenti.h@{utenti.h}}\index{utenti.h@{utenti.h}!DATA1@{DATA1}}}\mbox{\Hypertarget{utenti_8h_a86d071ff78a9a412a71a49c29684eaefa37d605c7e866f53b8dc1f9649532ea0c}\label{utenti_8h_a86d071ff78a9a412a71a49c29684eaefa37d605c7e866f53b8dc1f9649532ea0c}} 
+DATA1&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{utenti_8h_a0112d2df36cedae242112da45c8da2ea}\label{utenti_8h_a0112d2df36cedae242112da45c8da2ea}} 
+\index{utenti.h@{utenti.h}!Accesso\_utente@{Accesso\_utente}}
+\index{Accesso\_utente@{Accesso\_utente}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{Accesso\_utente()}{Accesso\_utente()}}
+{\footnotesize\ttfamily void Accesso\+\_\+utente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette all utente di modificare i dati e di controllare la sua cronologia degli eventi \mbox{\Hypertarget{utenti_8h_af66b992239d7157ba2646b990eaa579b}\label{utenti_8h_af66b992239d7157ba2646b990eaa579b}} 
+\index{utenti.h@{utenti.h}!Aggiungi\_utente@{Aggiungi\_utente}}
+\index{Aggiungi\_utente@{Aggiungi\_utente}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{Aggiungi\_utente()}{Aggiungi\_utente()}}
+{\footnotesize\ttfamily void Aggiungi\+\_\+utente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di salvare sul file \char`\"{}\+Dati\+\_\+utente.\+csv\char`\"{} le informazioni relative all utente\+: NICKNAME, E-\/\+MAIL, ANNO DI NASCITA, MESE DI NASCITA, GIORNO DI NASCITA, GENERE, GENERE MUSICALE E NUMERO CELLULARE \mbox{\Hypertarget{utenti_8h_a3fd6c1bfe858038f59cfc6e78dc26b2a}\label{utenti_8h_a3fd6c1bfe858038f59cfc6e78dc26b2a}} 
+\index{utenti.h@{utenti.h}!Cronologia\_eventi@{Cronologia\_eventi}}
+\index{Cronologia\_eventi@{Cronologia\_eventi}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{Cronologia\_eventi()}{Cronologia\_eventi()}}
+{\footnotesize\ttfamily void Cronologia\+\_\+eventi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di stampare tutti gli eventi a cui ha partecipato un utente, sia in ordine di costo che in ordine di data \mbox{\Hypertarget{utenti_8h_ae50734e333f85eaddff1d693417993b7}\label{utenti_8h_ae50734e333f85eaddff1d693417993b7}} 
+\index{utenti.h@{utenti.h}!MenuR\_A@{MenuR\_A}}
+\index{MenuR\_A@{MenuR\_A}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{MenuR\_A()}{MenuR\_A()}}
+{\footnotesize\ttfamily void Menu\+R\+\_\+A (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette all utente di scegliere tra R(egistra) e A(ccedi) \mbox{\Hypertarget{utenti_8h_ac5c77e5358d11ee16f9b2626592bab21}\label{utenti_8h_ac5c77e5358d11ee16f9b2626592bab21}} 
+\index{utenti.h@{utenti.h}!Modifica\_utente@{Modifica\_utente}}
+\index{Modifica\_utente@{Modifica\_utente}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{Modifica\_utente()}{Modifica\_utente()}}
+{\footnotesize\ttfamily void Modifica\+\_\+utente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette all utente di modificare i suoi dati (senza cambiare il nickname)\+: E-\/\+MAIL, ANNO DI NASCITA, MESE DI NASCITA, GIORNO DI NASCITA, GENERE, GENERE MUSICALE E NUMERO CELLULARE \mbox{\Hypertarget{utenti_8h_abff930b134ccb70ac6210a267c64adb4}\label{utenti_8h_abff930b134ccb70ac6210a267c64adb4}} 
+\index{utenti.h@{utenti.h}!Ordine\_costo@{Ordine\_costo}}
+\index{Ordine\_costo@{Ordine\_costo}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{Ordine\_costo()}{Ordine\_costo()}}
+{\footnotesize\ttfamily void Ordine\+\_\+costo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di ordinare gli eventi in base al costo speso dall utente \mbox{\Hypertarget{utenti_8h_ac70e4b549205269c45a7ae04ff0db5de}\label{utenti_8h_ac70e4b549205269c45a7ae04ff0db5de}} 
+\index{utenti.h@{utenti.h}!Ordine\_data@{Ordine\_data}}
+\index{Ordine\_data@{Ordine\_data}!utenti.h@{utenti.h}}
+\doxysubsubsection{\texorpdfstring{Ordine\_data()}{Ordine\_data()}}
+{\footnotesize\ttfamily void Ordine\+\_\+data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di ordinare gli eventi in ordine cronologico 

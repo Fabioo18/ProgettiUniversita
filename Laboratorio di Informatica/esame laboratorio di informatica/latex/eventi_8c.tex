@@ -1,0 +1,100 @@
+\hypertarget{eventi_8c}{}\doxysection{eventi.\+c File Reference}
+\label{eventi_8c}\index{eventi.c@{eventi.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}eventi.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}utenti.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{eventi_8c_a392fb874e547e582e9c66a08a1f23326}{MAX}}~100
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{eventi_8c_a394f3821ca02521778fd1d0d31f7c208}{Menu\+G\+\_\+E}} ()
+\item 
+void \mbox{\hyperlink{eventi_8c_a5ad631c5355d3c47548a7a8278c14c42}{Aggiungi\+\_\+evento}} ()
+\item 
+void \mbox{\hyperlink{eventi_8c_ae81718d4ce1105ef51316ce0afee8a98}{Cerca\+\_\+evento}} ()
+\item 
+void \mbox{\hyperlink{eventi_8c_a47e1e013f0e9813bcd4c48a77511ee52}{Ricerca\+\_\+artista}} ()
+\item 
+void \mbox{\hyperlink{eventi_8c_a9a20ee517580af0fb420a620fcab1956}{Prenota\+\_\+evento}} ()
+\item 
+void \mbox{\hyperlink{eventi_8c_a079341ab192b4c0999b3ef7354c20913}{Stampa\+\_\+prenotati}} ()
+\item 
+void \mbox{\hyperlink{eventi_8c_aaced598704c29332411f82d9f5488aa2}{Modifica\+\_\+evento}} ()
+\item 
+void \mbox{\hyperlink{eventi_8c_a467c97e0d4a5347fdf7b9686c9bba3a2}{Ricerca\+\_\+data}} ()
+\item 
+void \mbox{\hyperlink{eventi_8c_a2a41cb85d13a043a6c55bfa86378d3da}{Stampa\+\_\+\+Incassi}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{eventi_8c_a392fb874e547e582e9c66a08a1f23326}\label{eventi_8c_a392fb874e547e582e9c66a08a1f23326}} 
+\index{eventi.c@{eventi.c}!MAX@{MAX}}
+\index{MAX@{MAX}!eventi.c@{eventi.c}}
+\doxysubsubsection{\texorpdfstring{MAX}{MAX}}
+{\footnotesize\ttfamily \#define MAX~100}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{eventi_8c_a5ad631c5355d3c47548a7a8278c14c42}\label{eventi_8c_a5ad631c5355d3c47548a7a8278c14c42}} 
+\index{eventi.c@{eventi.c}!Aggiungi\_evento@{Aggiungi\_evento}}
+\index{Aggiungi\_evento@{Aggiungi\_evento}!eventi.c@{eventi.c}}
+\doxysubsubsection{\texorpdfstring{Aggiungi\_evento()}{Aggiungi\_evento()}}
+{\footnotesize\ttfamily void Aggiungi\+\_\+evento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di salvare sul file \char`\"{}\+Evento.\+csv\char`\"{} i dati relativi ad un evento\+: CODICE UNIVOCO, ANNO, MESE, GIORNO, ORARIO DI INIZIO, ORARIO DI FINE, ARTISTA, LOCALE, COSTO PRIMAFILA, COSTO ULTIMA FILA, NUMERO PER FILA E NUMERO FILE \mbox{\Hypertarget{eventi_8c_ae81718d4ce1105ef51316ce0afee8a98}\label{eventi_8c_ae81718d4ce1105ef51316ce0afee8a98}} 
+\index{eventi.c@{eventi.c}!Cerca\_evento@{Cerca\_evento}}
+\index{Cerca\_evento@{Cerca\_evento}!eventi.c@{eventi.c}}
+\doxysubsubsection{\texorpdfstring{Cerca\_evento()}{Cerca\_evento()}}
+{\footnotesize\ttfamily void Cerca\+\_\+evento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di cercare un evento (in base all artista e la data), stampare e modificare i dati di un evento \mbox{\Hypertarget{eventi_8c_a394f3821ca02521778fd1d0d31f7c208}\label{eventi_8c_a394f3821ca02521778fd1d0d31f7c208}} 
+\index{eventi.c@{eventi.c}!MenuG\_E@{MenuG\_E}}
+\index{MenuG\_E@{MenuG\_E}!eventi.c@{eventi.c}}
+\doxysubsubsection{\texorpdfstring{MenuG\_E()}{MenuG\_E()}}
+{\footnotesize\ttfamily void Menu\+G\+\_\+E (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette all utente di scegliere tra aggiungere, cercare, prenotarsi e vedere l incasso di un evento \mbox{\Hypertarget{eventi_8c_aaced598704c29332411f82d9f5488aa2}\label{eventi_8c_aaced598704c29332411f82d9f5488aa2}} 
+\index{eventi.c@{eventi.c}!Modifica\_evento@{Modifica\_evento}}
+\index{Modifica\_evento@{Modifica\_evento}!eventi.c@{eventi.c}}
+\doxysubsubsection{\texorpdfstring{Modifica\_evento()}{Modifica\_evento()}}
+{\footnotesize\ttfamily void Modifica\+\_\+evento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette all utente di modificare i dati dell evento\+: CODICE UNIVOCO, ANNO, MESE, GIORNO, ORARIO DI INIZIO, ORARIO DI FINE, ARTISTA, LOCALE, COSTO PRIMAFILA, COSTO ULTIMA FILA, NUMERO PER FILA E NUMERO FILE \mbox{\Hypertarget{eventi_8c_a9a20ee517580af0fb420a620fcab1956}\label{eventi_8c_a9a20ee517580af0fb420a620fcab1956}} 
+\index{eventi.c@{eventi.c}!Prenota\_evento@{Prenota\_evento}}
+\index{Prenota\_evento@{Prenota\_evento}!eventi.c@{eventi.c}}
+\doxysubsubsection{\texorpdfstring{Prenota\_evento()}{Prenota\_evento()}}
+{\footnotesize\ttfamily void Prenota\+\_\+evento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette all utente di effettuare la prenotazione ad un determinato evento salvando le informazioni sul file \char`\"{}\+Prenotazione.\+csv\char`\"{} \mbox{\Hypertarget{eventi_8c_a47e1e013f0e9813bcd4c48a77511ee52}\label{eventi_8c_a47e1e013f0e9813bcd4c48a77511ee52}} 
+\index{eventi.c@{eventi.c}!Ricerca\_artista@{Ricerca\_artista}}
+\index{Ricerca\_artista@{Ricerca\_artista}!eventi.c@{eventi.c}}
+\doxysubsubsection{\texorpdfstring{Ricerca\_artista()}{Ricerca\_artista()}}
+{\footnotesize\ttfamily void Ricerca\+\_\+artista (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di cercare un evento in base al nome di un artista \mbox{\Hypertarget{eventi_8c_a467c97e0d4a5347fdf7b9686c9bba3a2}\label{eventi_8c_a467c97e0d4a5347fdf7b9686c9bba3a2}} 
+\index{eventi.c@{eventi.c}!Ricerca\_data@{Ricerca\_data}}
+\index{Ricerca\_data@{Ricerca\_data}!eventi.c@{eventi.c}}
+\doxysubsubsection{\texorpdfstring{Ricerca\_data()}{Ricerca\_data()}}
+{\footnotesize\ttfamily void Ricerca\+\_\+data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di cercare un evento in base alla data \mbox{\Hypertarget{eventi_8c_a2a41cb85d13a043a6c55bfa86378d3da}\label{eventi_8c_a2a41cb85d13a043a6c55bfa86378d3da}} 
+\index{eventi.c@{eventi.c}!Stampa\_Incassi@{Stampa\_Incassi}}
+\index{Stampa\_Incassi@{Stampa\_Incassi}!eventi.c@{eventi.c}}
+\doxysubsubsection{\texorpdfstring{Stampa\_Incassi()}{Stampa\_Incassi()}}
+{\footnotesize\ttfamily void Stampa\+\_\+\+Incassi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di stampare gli incassi totali dell evento \mbox{\Hypertarget{eventi_8c_a079341ab192b4c0999b3ef7354c20913}\label{eventi_8c_a079341ab192b4c0999b3ef7354c20913}} 
+\index{eventi.c@{eventi.c}!Stampa\_prenotati@{Stampa\_prenotati}}
+\index{Stampa\_prenotati@{Stampa\_prenotati}!eventi.c@{eventi.c}}
+\doxysubsubsection{\texorpdfstring{Stampa\_prenotati()}{Stampa\_prenotati()}}
+{\footnotesize\ttfamily void Stampa\+\_\+prenotati (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Questa funzione permette di stampare gli utenti che si sono prenotati ad un determinato evento 

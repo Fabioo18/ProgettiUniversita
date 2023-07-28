@@ -1,0 +1,67 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+
+jacoco {
+    toolVersion = "0.8.7"
+}
+
+test {
+    jacoco {
+        enabled = true
+    }
+    useJUnitPlatform {
+        includeEngines 'jqwik'
+
+        // Or include several Junit engines if you use them
+        // includeEngines 'jqwik', 'junit-jupiter', 'junit-vintage'
+
+        // includeTags 'fast', 'medium'
+        // excludeTags 'slow'
+    }
+
+    include '**/*Properties.class'
+    include '**/*Test.class'
+    include '**/*Tests.class'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext.junitJupiterVersion = '5.9.2'
+ext.jqwikVersion = '1.7.3'
+
+compileTestJava {
+    // To enable argument names in reporting and debugging
+    options.compilerArgs += '-parameters'
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    implementation 'org.junit.jupiter:junit-jupiter-params:5.9.2'
+    implementation 'org.junit.jupiter:junit-jupiter:5.9.2'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+
+    // aggregate jqwik dependency
+    testImplementation "net.jqwik:jqwik:${jqwikVersion}"
+
+    // Add if you also want to use the Jupiter engine or Assertions from it
+    testImplementation "org.junit.jupiter:junit-jupiter:${junitJupiterVersion}"
+
+    // Add any other test library you need...
+    testImplementation "org.assertj:assertj-core:3.23.1"
+
+    // Optional but recommended to get annotation related API warnings
+    compileOnly("org.jetbrains:annotations:23.0.0")
+}
+
+test {
+    useJUnitPlatform()
+}
